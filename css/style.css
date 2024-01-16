@@ -1,0 +1,256 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1110px;
+}
+
+img {
+  display: flex;
+  object-fit: cover;
+}
+
+body {
+  height: 100%;
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #fff;
+  color: #7b8bad;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+  padding-bottom: 55px;
+}
+
+.header-container-btn {
+  color: #162542;
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 8px;
+  background: #e8eff2;
+  width: 175px;
+  height: 58px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.btn-orang {
+  color: #fff;
+  background-color: #f16718;
+}
+btn-gray {
+  color: #111;
+  background: #e8eff2;
+  width: 175px;
+  height: 58px;
+  flex-shrink: 0;
+}
+
+.header-container-img {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.header-container-link {
+  color: black;
+}
+.main-content-title {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px 20px 0 20px;
+  gap: 50px;
+}
+.main-content-title-text {
+  display: flex;
+  flex-direction: column;
+  width: 445px;
+  height: 312px;
+  flex-shrink: 0;
+}
+.main-title-h1 {
+  color: #162542;
+  font-family: "Barlow", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 56px; /* 100% */
+  text-transform: uppercase;
+}
+.main-content-text {
+  color: #7b8bad;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+}
+.main-content-btn {
+  display: flex;
+  align-items: baseline;
+  gap: 30px;
+  padding-top: 50px;
+}
+.header-container-link {
+}
+.btn-main {
+  color: #fff;
+}
+.main-content-data {
+  color: #7b8bad;
+  font-family: " Barlow", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  text-transform: uppercase;
+}
+.main-content-img {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+.main-content-img-keybord {
+  border-radius: 20px;
+}
+.main-content-img-section {
+  margin-left: 600px;
+  position: fixed;
+}
+.main-content-title {
+  margin-bottom: 50px;
+}
+.main-content-img-bottom {
+  background-color: rgba(255, 95, 3, 0.966);
+  border-radius: 20px;
+}
+.main-img {
+  border-radius: 20px;
+}
+.main-content-img-bottom-big {
+}
+.main-img-big {
+  border-radius: 20px;
+}
+.main-content-title-text-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 27px;
+}
+.main-title-h2 {
+  color: #162542;
+  font-family: Barlow;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px; /* 112.5% */
+  text-transform: uppercase;
+}
+.main-content-text-bottom {
+  color: #7b8bad;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  width: 255px;
+}
+.footer-list {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: -20px;
+}
+.footer-dominace-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 200px;
+  flex-shrink: 0;
+  align-items: baseline;
+}
+.footer-item {
+  text-align: start;
+}
+.footer-item-icon {
+  margin-bottom: 48px;
+}
+.footer-item-title {
+  color: #162542;
+  font-family: Barlow;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px; /* 116.667% */
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.footer-item-text {
+  color: #7b8bad;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+}
+.footer-end {
+  font-family: "Barlow", sans-serif;
+  color: #7b8bad;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 128px;
+}
+.btn-gray:hover {
+  background-color: #162542;
+  color: #fff;
+  width: 175px;
+  height: 58px;
+  text-align: center;
+  border-radius: 8px;
+  padding-top: 16px;
+}
+.btn-orang:hover {
+  background-color: #ff9b62;
+}
